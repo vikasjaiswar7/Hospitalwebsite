@@ -1,0 +1,24 @@
+# Hospital Landing Page
+
+Welcome to the Hospital Landing Page repository. This project aims to create a responsive landing page for a hospital website with various features.
+
+## Features
+
+- Integration of **Tourism_Destination** information
+- Implementation of a **page loader**
+- Usage of fonts from **Google Fonts via Google APIs**
+- Utilization of **Cloudflare services** for performance optimization
+- **Country dropdown** for selecting preferred country
+- **Navbar** for both desktop and mobile views with full responsiveness
+- Utilization of **anchor links** for easy navigation
+
+## Setup and Usage
+
+1. Clone the repository to your local machine.
+2. Open the `index.html` file in your browser to view the hospital landing page.
+
+## Dependencies
+
+- **Google Fonts:** Include the following line in your HTML head to link the desired fonts from Google Fonts:
+  ```html
+  <link href="https://fonts.googleapis.com/css?family=Font1|Font2" rel="stylesheet">
