@@ -5,14 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AAFIYA MEDIRETREATS</title>
+    <title>THE PRODIGIES</title>
     <link rel="stylesheet" href="css/style.css">
-    <!-- <script src="js/boxicons.js"></script> -->
-    <!-- <link href="css/boxicons.min.css" rel="stylesheet"> -->
-    <!-- <script src="js/e5ee762576.js" crossorigin="anonymous"></script> -->
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;display=swap"
         rel="stylesheet">
+
+    <!-- owl  -->
+    <link rel="stylesheet" href="owl/owl.carousel.css">
+    <link rel="stylesheet" href="owl/owl.theme.green.css">
+
+    <script src="owl/jquery.min.js"></script>
+    <script src="owl/owl.carousel.min.js"></script>
+
+    <!-- font awsome lin -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+        integrity="sha512-siarrzI1u3pCqFG2LEzi87McrBmq6Tp7juVsdmGY1Dr8Saw+ZBAzDzrGwX3vgxX1NkioYNCFOVC0GpDPss10zQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
         integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
@@ -28,999 +41,207 @@
 <body onload="myfunction()">
     <div class="loader"></div>
     <div id="loading" style="display: none;"></div>
-
-    <div class="header" id="header">
-        <div class="small-container">
-            <div class="row">
-                <div class="logo">
-                    <a href="#"> <img src="images/aafiya%20m.png" alt id="logo-img"></a>
-                    <div class="dr-logo">
-                        <a href="#"><img src="images/dr%20img.png" alt></a>
-                    </div>
-                </div>
-                <div class="contacts">
-                    <div class="col-small">
-                        <img src="fonts/blogger.svg" alt>
-                        <div class="contact-text">
-                            <p>Second Medical Opinion</p>
-                            <h5>Book Consultation</h5>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="contacts">
-                    <div class="col-small">
-                        <img src="fonts/phone-call.svg" alt>
-                        <div class="contact-text">
-                            <p>Call Us On</p>
-                            <h5>985 896 2222</h5>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="contacts">
-                    <div class="col-small">
-                        <img src="fonts/email.svg" alt>
-                        <div class="contact-text">
-                            <p>Email Us On</p>
-                            <h5> <a href="mailto:info@mediretreats.com" style="color: black;">info@mediretreats.com</a>
-                            </h5>
-                            <!-- <h5></h5> -->
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="countrys">
-                    <img src="fonts/india.svg" alt>
-                    <select id="country" name="country" class="form-control">
-                        <option value="India">India</option>
-                        <option value="Afghanistan">Afghanistan</option>
-                        <option value="Åland Islands">Åland Islands</option>
-                        <option value="Albania">Albania</option>
-                        <option value="Algeria">Algeria</option>
-                        <option value="American Samoa">American Samoa</option>
-                        <option value="Andorra">Andorra</option>
-                        <option value="Angola">Angola</option>
-                        <option value="Anguilla">Anguilla</option>
-                        <option value="Antarctica">Antarctica</option>
-                        <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                        <option value="Argentina">Argentina</option>
-                        <option value="Armenia">Armenia</option>
-                        <option value="Aruba">Aruba</option>
-                        <option value="Australia">Australia</option>
-                        <option value="Austria">Austria</option>
-                        <option value="Azerbaijan">Azerbaijan</option>
-                        <option value="Bahamas">Bahamas</option>
-                        <option value="Bahrain">Bahrain</option>
-                        <option value="Bangladesh">Bangladesh</option>
-                        <option value="Barbados">Barbados</option>
-                        <option value="Belarus">Belarus</option>
-                        <option value="Belgium">Belgium</option>
-                        <option value="Belize">Belize</option>
-                        <option value="Benin">Benin</option>
-                        <option value="Bermuda">Bermuda</option>
-                        <option value="Bhutan">Bhutan</option>
-                        <option value="Bolivia">Bolivia</option>
-                        <option value="Bosnia and Herzegovina">Bosnia and Herzegovina</option>
-                        <option value="Botswana">Botswana</option>
-                        <option value="Bouvet Island">Bouvet Island</option>
-                        <option value="Brazil">Brazil</option>
-                        <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
-                        <option value="Brunei Darussalam">Brunei Darussalam</option>
-                        <option value="Bulgaria">Bulgaria</option>
-                        <option value="Burkina Faso">Burkina Faso</option>
-                        <option value="Burundi">Burundi</option>
-                        <option value="Cambodia">Cambodia</option>
-                        <option value="Cameroon">Cameroon</option>
-                        <option value="Canada">Canada</option>
-                        <option value="Cape Verde">Cape Verde</option>
-                        <option value="Cayman Islands">Cayman Islands</option>
-                        <option value="Central African Republic">Central African Republic</option>
-                        <option value="Chad">Chad</option>
-                        <option value="Chile">Chile</option>
-                        <option value="China">China</option>
-                        <option value="Christmas Island">Christmas Island</option>
-                        <option value="Cocos (Keeling) Islands">Cocos (Keeling) Islands</option>
-                        <option value="Colombia">Colombia</option>
-                        <option value="Comoros">Comoros</option>
-                        <option value="Congo">Congo</option>
-                        <option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The
-                        </option>
-                        <option value="Cook Islands">Cook Islands</option>
-                        <option value="Costa Rica">Costa Rica</option>
-                        <option value="Cote D'ivoire">Cote D'ivoire</option>
-                        <option value="Croatia">Croatia</option>
-                        <option value="Cuba">Cuba</option>
-                        <option value="Cyprus">Cyprus</option>
-                        <option value="Czech Republic">Czech Republic</option>
-                        <option value="Denmark">Denmark</option>
-                        <option value="Djibouti">Djibouti</option>
-                        <option value="Dominica">Dominica</option>
-                        <option value="Dominican Republic">Dominican Republic</option>
-                        <option value="Ecuador">Ecuador</option>
-                        <option value="Egypt">Egypt</option>
-                        <option value="El Salvador">El Salvador</option>
-                        <option value="Equatorial Guinea">Equatorial Guinea</option>
-                        <option value="Eritrea">Eritrea</option>
-                        <option value="Estonia">Estonia</option>
-                        <option value="Ethiopia">Ethiopia</option>
-                        <option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
-                        <option value="Faroe Islands">Faroe Islands</option>
-                        <option value="Fiji">Fiji</option>
-                        <option value="Finland">Finland</option>
-                        <option value="France">France</option>
-                        <option value="French Guiana">French Guiana</option>
-                        <option value="French Polynesia">French Polynesia</option>
-                        <option value="French Southern Territories">French Southern Territories</option>
-                        <option value="Gabon">Gabon</option>
-                        <option value="Gambia">Gambia</option>
-                        <option value="Georgia">Georgia</option>
-                        <option value="Germany">Germany</option>
-                        <option value="Ghana">Ghana</option>
-                        <option value="Gibraltar">Gibraltar</option>
-                        <option value="Greece">Greece</option>
-                        <option value="Greenland">Greenland</option>
-                        <option value="Grenada">Grenada</option>
-                        <option value="Guadeloupe">Guadeloupe</option>
-                        <option value="Guam">Guam</option>
-                        <option value="Guatemala">Guatemala</option>
-                        <option value="Guernsey">Guernsey</option>
-                        <option value="Guinea">Guinea</option>
-                        <option value="Guinea-bissau">Guinea-bissau</option>
-                        <option value="Guyana">Guyana</option>
-                        <option value="Haiti">Haiti</option>
-                        <option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
-                        <option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
-                        <option value="Honduras">Honduras</option>
-                        <option value="Hong Kong">Hong Kong</option>
-                        <option value="Hungary">Hungary</option>
-                        <option value="Iceland">Iceland</option>
-                        <option value="Indonesia">Indonesia</option>
-                        <option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
-                        <option value="Iraq">Iraq</option>
-                        <option value="Ireland">Ireland</option>
-                        <option value="Isle of Man">Isle of Man</option>
-                        <option value="Israel">Israel</option>
-                        <option value="Italy">Italy</option>
-                        <option value="Jamaica">Jamaica</option>
-                        <option value="Japan">Japan</option>
-                        <option value="Jersey">Jersey</option>
-                        <option value="Jordan">Jordan</option>
-                        <option value="Kazakhstan">Kazakhstan</option>
-                        <option value="Kenya">Kenya</option>
-                        <option value="Kiribati">Kiribati</option>
-                        <option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of
-                        </option>
-                        <option value="Korea, Republic of">Korea, Republic of</option>
-                        <option value="Kuwait">Kuwait</option>
-                        <option value="Kyrgyzstan">Kyrgyzstan</option>
-                        <option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
-                        <option value="Latvia">Latvia</option>
-                        <option value="Lebanon">Lebanon</option>
-                        <option value="Lesotho">Lesotho</option>
-                        <option value="Liberia">Liberia</option>
-                        <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
-                        <option value="Liechtenstein">Liechtenstein</option>
-                        <option value="Lithuania">Lithuania</option>
-                        <option value="Luxembourg">Luxembourg</option>
-                        <option value="Macao">Macao</option>
-                        <option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav
-                            Republic
-                            of</option>
-                        <option value="Madagascar">Madagascar</option>
-                        <option value="Malawi">Malawi</option>
-                        <option value="Malaysia">Malaysia</option>
-                        <option value="Maldives">Maldives</option>
-                        <option value="Mali">Mali</option>
-                        <option value="Malta">Malta</option>
-                        <option value="Marshall Islands">Marshall Islands</option>
-                        <option value="Martinique">Martinique</option>
-                        <option value="Mauritania">Mauritania</option>
-                        <option value="Mauritius">Mauritius</option>
-                        <option value="Mayotte">Mayotte</option>
-                        <option value="Mexico">Mexico</option>
-                        <option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
-                        <option value="Moldova, Republic of">Moldova, Republic of</option>
-                        <option value="Monaco">Monaco</option>
-                        <option value="Mongolia">Mongolia</option>
-                        <option value="Montenegro">Montenegro</option>
-                        <option value="Montserrat">Montserrat</option>
-                        <option value="Morocco">Morocco</option>
-                        <option value="Mozambique">Mozambique</option>
-                        <option value="Myanmar">Myanmar</option>
-                        <option value="Namibia">Namibia</option>
-                        <option value="Nauru">Nauru</option>
-                        <option value="Nepal">Nepal</option>
-                        <option value="Netherlands">Netherlands</option>
-                        <option value="Netherlands Antilles">Netherlands Antilles</option>
-                        <option value="New Caledonia">New Caledonia</option>
-                        <option value="New Zealand">New Zealand</option>
-                        <option value="Nicaragua">Nicaragua</option>
-                        <option value="Niger">Niger</option>
-                        <option value="Nigeria">Nigeria</option>
-                        <option value="Niue">Niue</option>
-                        <option value="Norfolk Island">Norfolk Island</option>
-                        <option value="Northern Mariana Islands">Northern Mariana Islands</option>
-                        <option value="Norway">Norway</option>
-                        <option value="Oman">Oman</option>
-                        <option value="Pakistan">Pakistan</option>
-                        <option value="Palau">Palau</option>
-                        <option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
-                        <option value="Panama">Panama</option>
-                        <option value="Papua New Guinea">Papua New Guinea</option>
-                        <option value="Paraguay">Paraguay</option>
-                        <option value="Peru">Peru</option>
-                        <option value="Philippines">Philippines</option>
-                        <option value="Pitcairn">Pitcairn</option>
-                        <option value="Poland">Poland</option>
-                        <option value="Portugal">Portugal</option>
-                        <option value="Puerto Rico">Puerto Rico</option>
-                        <option value="Qatar">Qatar</option>
-                        <option value="Reunion">Reunion</option>
-                        <option value="Romania">Romania</option>
-                        <option value="Russian Federation">Russian Federation</option>
-                        <option value="Rwanda">Rwanda</option>
-                        <option value="Saint Helena">Saint Helena</option>
-                        <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
-                        <option value="Saint Lucia">Saint Lucia</option>
-                        <option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
-                        <option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
-                        <option value="Samoa">Samoa</option>
-                        <option value="San Marino">San Marino</option>
-                        <option value="Sao Tome and Principe">Sao Tome and Principe</option>
-                        <option value="Saudi Arabia">Saudi Arabia</option>
-                        <option value="Senegal">Senegal</option>
-                        <option value="Serbia">Serbia</option>
-                        <option value="Seychelles">Seychelles</option>
-                        <option value="Sierra Leone">Sierra Leone</option>
-                        <option value="Singapore">Singapore</option>
-                        <option value="Slovakia">Slovakia</option>
-                        <option value="Slovenia">Slovenia</option>
-                        <option value="Solomon Islands">Solomon Islands</option>
-                        <option value="Somalia">Somalia</option>
-                        <option value="South Africa">South Africa</option>
-                        <option value="South Georgia and The South Sandwich Islands">South Georgia and The South
-                            Sandwich
-                            Islands</option>
-                        <option value="Spain">Spain</option>
-                        <option value="Sri Lanka">Sri Lanka</option>
-                        <option value="Sudan">Sudan</option>
-                        <option value="Suriname">Suriname</option>
-                        <option value="Svalbard and Jan Mayen">Svalbard and Jan Mayen</option>
-                        <option value="Swaziland">Swaziland</option>
-                        <option value="Sweden">Sweden</option>
-                        <option value="Switzerland">Switzerland</option>
-                        <option value="Syrian Arab Republic">Syrian Arab Republic</option>
-                        <option value="Taiwan, Province of China">Taiwan, Province of China</option>
-                        <option value="Tajikistan">Tajikistan</option>
-                        <option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
-                        <option value="Thailand">Thailand</option>
-                        <option value="Timor-leste">Timor-leste</option>
-                        <option value="Togo">Togo</option>
-                        <option value="Tokelau">Tokelau</option>
-                        <option value="Tonga">Tonga</option>
-                        <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                        <option value="Tunisia">Tunisia</option>
-                        <option value="Turkey">Turkey</option>
-                        <option value="Turkmenistan">Turkmenistan</option>
-                        <option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
-                        <option value="Tuvalu">Tuvalu</option>
-                        <option value="Uganda">Uganda</option>
-                        <option value="Ukraine">Ukraine</option>
-                        <option value="United Arab Emirates">United Arab Emirates</option>
-                        <option value="United Kingdom">United Kingdom</option>
-                        <option value="United States">United States</option>
-                        <option value="United States Minor Outlying Islands">United States Minor Outlying Islands
-                        </option>
-                        <option value="Uruguay">Uruguay</option>
-                        <option value="Uzbekistan">Uzbekistan</option>
-                        <option value="Vanuatu">Vanuatu</option>
-                        <option value="Venezuela">Venezuela</option>
-                        <option value="Viet Nam">Viet Nam</option>
-                        <option value="Virgin Islands, British">Virgin Islands, British</option>
-                        <option value="Virgin Islands, U.S.">Virgin Islands, U.S.</option>
-                        <option value="Wallis and Futuna">Wallis and Futuna</option>
-                        <option value="Western Sahara">Western Sahara</option>
-                        <option value="Yemen">Yemen</option>
-                        <option value="Zambia">Zambia</option>
-                        <option value="Zimbabwe">Zimbabwe</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="navbar" id="navbar">
-        <div class="small-container">
-            <div class="row">
-                <ul class="link-background">
-                    <li><a href="#" class="left">Home</a></li>
-                    <li><a href="#" class="left">About US</a></li>
-                    <li><a href="#" class="left">Treatments +</a></li>
-                    <li><a href="#" class="left">Destination +</a></li>
-                    <li><a href="#" class="left">Hospital</a></li>
-                    <li><a href="#" class="left">FAQs</a></li>
-                    <li><a href="#" class="left">Blog</a></li>
-                    <li><a href="#" class="left">Request A Quote</a></li>
-                </ul>
-                <div class="search-bar">
-                    <i class="bx bx-search"></i>
-                    <input type="text" placeholder="Search">
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="carousel">
-        <div class="small-container">
-            <div class="carousal-text">
-                <h4>Home <span class="span-red">></span> Treatments <span class="span-red">></span> Orthopaedics <span
-                        class="span-red">></span> Knee Replacement</h4>
-                <h1>Total Knee Replacement</h1>
-                <p>Total knee replacement is a surgery to remove and replace the whole<br>damage knee joint with an
-                    artifical joint.</p>
-                <a href class="btn">Enquire Now</a>
+        <div class="header" id="header">
+            <div class="small-container" id="small-header-top">
+                <div class="row top-navba">
+                    <div class="contacts">
+                        <div class="col-small">
+
+                            <div class="contact-text" id="top-icons">
+                                <p><i class="fa-solid fa-bars fa-2xl" style="color: #2c4fce;"></i></p>
+                                <h5><i class="fa-regular fa-envelope fa-2xl" style="color: #2c4fce;"></i></h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="logo" style="justify-content: center;">
+                        <a href="#"> <img src="images/logo.png" alt id="logo-img"></a>
+                    </div>
+                    <div class="contacts">
+                        <div class="col-small">
+
+                            <div class="contact-text" id="top-icons">
+                                <p><i class="fa-solid fa-magnifying-glass fa-flip-horizontal fa-2xl"
+                                        style="color: #2c4fce;"></i></p>
+                                <h5><i class="fa-solid fa-share-nodes fa-2xl" style="color: #2c4fce;"></i></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
+        <div class="vertical-container" id="vertical-container-first">
+            <button class="btns" id="vertical-container-first-btn">
+                <p class="vertical-btn">Request a callback</p>
+            </button>
+        </div>
+        <div class="vertical-container">
+            <button class="btns">
+                <p class="vertical-btn">Enroll Now</p>
+            </button>
+        </div>
+        <div class="box-container">
+            <button class="btnsbox">
+                <p class="vertical-btn">
+                <h6>Empowering Students <br> to create solutions <br> for tomorrow's challenges</h6>
+                </p>
+            </button>
+        </div>
     </div>
-
-    <div class="navbar-2" id="navbar-2">
-        <div class="small-container">
+    <div class="owl-carousel owl-theme" id="owl-carouselbox">
+        <div class="item">
+            <h4>ANNOUNCEMENTS <span><i class="fa-solid fa-bullhorn fa-2xl" style="color: orange;"></i></span>
+                <span></span> Admission
+                are open
+                for the academic year2021-22
+            </h4>
+        </div>
+        <div class="item">
+            <h4>ANNOUNCEMENTS <span><i class="fa-solid fa-bullhorn fa-2xl" style="color: orange;"></i></span>
+                <span></span> Admission
+                are open for the academic year2021-22
+            </h4>
+        </div>
+    </div>
+    <div class="small-container">
+        <div class="carousal-text">
             <div class="row">
-                <ul id="Active">
-                    <li><a href="#Eligibility" class="active-btn">Eligibility</a></li>
-                    <li><a href="#Preparation" class="active-btn">Preparation</a></li>
-                    <li><a href="#About_Treatment" class="active-btn">About Treatment</a>
-                    </li>
-                    <li><a href="#Post_Treatment_Care" class="active-btn">Post-Treatment Care</a></li>
-                    <li><a href="#Recovery_Tips" class="active-btn">Recovery Tips</a></li>
-                    <li><a href="#Treatment-FAQs" class="active-btn">FAQs</a></li>
-                    <li><a href="#Patient-Stories" class="active-btn">Patient Stories</a></li>
-                </ul>
             </div>
         </div>
     </div>
 
-    <div class="Overview" id="Overview">
-        <div class="small-container">
-            <div class="row row-2">
-                <div class="col-2">
-                    <h2>Treatment Overview<span class="span-red">.</span></h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, cum ducimus? Vero dolores
-                        ducimus dicta veritatis, sapiente nam laborum hic!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, sunt esse quia repellendus
-                        eius
-                        cupiditate quos, magni harum architecto blanditiis, incidunt alias perferendis recusandae
-                        expedita eum quod sint. Sapiente fuga quibusdam sint, rem dolore perspiciatis odio ratione
-                        voluptatibus tenetur quidem, iure sed! Assumenda, asperiores. Aliquam incidunt cum ab
-                        inventore
-                        et.</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis reprehenderit beatae,
-                        quibusdam
-                        quae dolorem minus inventore.</p>
-                </div>
-                <div class="col-2">
-                    <img src="images/treatment.jpg" alt>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- footer top container -->
 
-    <div class="content">
-        <div class="small-container">
-            <div class="row row-2">
-                <div class="col-2">
-                    <div class="col-3" id="Eligibility">
-                        <h2>Eligibility For Treatment<span class="span-red">.</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
-                            quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
-                            iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio
-                            veniam! Ipsa, exercitationem!</p>
-                        <p>In general, gastric bypass could be a good option if:</p>
-                        <ul>
-                            <li>The BMI (body mass index) is 40 or more</li>
-                            <li>Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes
-                                and high blood pressure</li>
-                            <li>You are willing to make permanent changes in the lifestyle</li>
-                        </ul>
-                    </div>
-                    <div class="col-3" id="Preparation">
-                        <h2>Preparation Before Treatment<span class="span-red">.</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
-                            quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
-                            iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio
-                            veniam! Ipsa, exercitationem!</p>
-                        <p>In general, gastric bypass could be a good option if:</p>
-                        <ul>
-                            <li>The BMI (body mass index) is 40 or more</li>
-                            <li>Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes
-                                and high blood pressure</li>
-                            <li>You are willing to make permanent changes in the lifestyle</li>
-                        </ul>
-                    </div>
-                    <div class="col-3" id="About_Treatment">
-                        <h2>About Treatment<span class="span-red">.</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
-                            quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
-                            iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio
-                            veniam! Ipsa, exercitationem!</p>
-                        <p>In general, gastric bypass could be a good option if:</p>
-                        <ul>
-                            <li>The BMI (body mass index) is 40 or more</li>
-                            <li>Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes
-                                and high blood pressure</li>
-                            <li>You are willing to make permanent changes in the lifestyle</li>
-                        </ul>
-                    </div>
-                    <div class="col-3" id="Post_Treatment_Care">
-                        <h2>Post-Treatment Care Treatment<span class="span-red">.</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
-                            quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
-                            iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio
-                            veniam! Ipsa, exercitationem!</p>
-                        <p>In general, gastric bypass could be a good option if:</p>
-                        <ul>
-                            <li>The BMI (body mass index) is 40 or more</li>
-                            <li>Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes
-                                and high blood pressure</li>
-                            <li>You are willing to make permanent changes in the lifestyle</li>
-                        </ul>
-                    </div>
-                    <div class="col-3" id="Recovery_Tips">
-                        <h2>Treatment Recovery Tips<span class="span-red">.</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia nulla ut voluptatem
-                            quae adipisci unde dicta mollitia fugiat quia, incidunt architecto impedit illum qui! Rerum
-                            iusto quibusdam omnis sit perferendis tempora natus tempore, accusamus culpa distinctio
-                            veniam! Ipsa, exercitationem!</p>
-                        <p>In general, gastric bypass could be a good option if:</p>
-                        <ul>
-                            <li>The BMI (body mass index) is 40 or more</li>
-                            <li>Your BMI is 30 or more width serve width-related health conditions like type-2 diabetes
-                                and high blood pressure</li>
-                            <li>You are willing to make permanent changes in the lifestyle</li>
-                        </ul>
-                    </div>
-
-
-                    <!-- new Faq -->
-                    <section class="faq col-3" id="Treatment-FAQs">
-                        <h1>Treatment FAQs</h1>
-
-                        <div class="faq-container">
-                            <details class="faq-box">
-                                <summary class="faq-header">
-                                    How do I know the clinic I am searching is verified?
-
-                                </summary>
-                                <div class="faq-content">
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi,
-                                        illum facere necessitatibus cum aliquam id illo omnis maxime, totam soluta
-                                        voluptate amet ut sit ipsum aperiam. Perspiciatis, porro!
-                                    </p>
-                                </div>
-                            </details>
-
-                            <details class="faq-box">
-                                <summary class="faq-header">
-                                    I can't travel alone so can some family member or friend of mine accompany me?
-
-                                </summary>
-                                <div class="faq-content">
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi,
-                                        illum facere necessitatibus cum aliquam id illo omnis maxime, totam soluta
-                                        voluptate amet ut sit ipsum aperiam. Perspiciatis, porro!
-                                    </p>
-                                </div>
-                            </details>
-                            <details class="faq-box" open>
-                                <summary class="faq-header">
-                                    I Can I see my doctor before I decide and what about my post recovery?
-
-                                </summary>
-                                <div class="faq-content">
-                                    <p>
-                                        Yes, pre and post treatment consultation can be done. You can speak to the
-                                        doctor at the most appropriate time (before you decide to travel) to boost your
-                                        confidence. The team at Mecinetreats will also help you with amanging
-
-
-                                    </p>
-                                </div>
-                            </details>
-
-                            <details class="faq-box">
-                                <summary class="faq-header">
-                                    How do I share my reports and medical cases with the clinic of my choice?
-                                </summary>
-                                <div class="faq-content">
-                                    <p>
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi,
-                                        illum facere necessitatibus cum aliquam id illo omnis maxime, totam soluta
-                                        voluptate amet ut sit ipsum aperiam. Perspiciatis, porro!
-                                    </p>
-                                </div>
-                            </details>
-                        </div>
-                    </section>
-
-
-
-
-                    <!-- end faq -->
-                    <div class="col-3" id="Patient-Stories">
-                        <h2>Patient Stories & Videos<span class="span-red">.</span></h2>
-                        <div class="story-card">
-                            <!-- <div id="owl-3"> -->
-                                <div class="dr-cards ">
-                                    <div class="card">
-                                        <div class="card-top">
-                                            <h5>Underwent procedure for <br> retinal detachment</h5>
-                                            <i class="bx bxs-quote-alt-right"></i>
-                                        </div>
-                                        <img src="fonts/undraw_medical_research_qg4d.svg" alt>
-                                        <div class="card-bottom">
-                                            <img src="fonts/undraw_male_avatar_323b.svg" alt="">
-                                            <div class="card-bottom-text">
-                                                <p>Luke Olfert</p>
-                                                <small>New York, USA</small>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-top">
-                                            <h5>Underwent Colonoscopy and <br>Mrdical Management</h5>
-                                            <i class="bx bxs-quote-alt-right"></i>
-                                        </div>
-                                        <img src="fonts/undraw_doctor_kw5l.svg" alt>
-                                        <div class="card-bottom">
-                                            <img src="fonts/undraw_female_avatar_w3jk.svg" alt="">
-                                            <div class="card-bottom-text">
-                                                <p>Luke Olfert</p>
-                                                <small>Sydeny, Australia</small>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            <!-- </div> -->
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="input-card">
-                        <h3>Need Help?</h3>
-                        <p>Just let us know we will be happy to assist you.</p>
-                        <input type="text" placeholder="Full Name">
-                        <input type="email" placeholder="Email">
-                        <input type="number" placeholder="Phone Number">
-
-                        <textarea class="Describe_Treatment" name="" id="" cols="40" rows="10"
-                            placeholder="Describe Your Treatment Requirement"></textarea>
-                        <a href class="btn">Send Enquiry</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="doctor-team">
-        <div class="small-container">
-            <div class="row">
-                <div class="title">
-                    <h3>Doctors</h3>
-                    <h2>Top Orthopaedics <span class="span-blue">Doctors</span></h2>
-                </div>
-                <div id="owl-1">
-                    <div class="dr-cards owl-carousel">
-                        <div class="dr-card">
-                            <img src="images/Doctor.jpg" alt>
-                            <h4>Dr. Faique Falke</h4>
-                            <p>Musaffah Industrial - Abu Dhabi</p>
-                            <small>Doctor Degree & Specialist</small>
-                        </div>
-                        <div class="dr-card">
-                            <img src="images/Doctor.jpg" alt>
-                            <h4>Dr. Faique Falke</h4>
-                            <p>Musaffah Industrial - Abu Dhabi</p>
-                            <small>Doctor Degree & Specialist</small>
-                        </div>
-                        <div class="dr-card">
-                            <img src="images/Doctor.jpg" alt>
-                            <h4>Dr. Faique Falke</h4>
-                            <p>Musaffah Industrial - Abu Dhabi</p>
-                            <small>Doctor Degree & Specialist</small>
-                        </div>
-                        <div class="dr-card">
-                            <img src="images/Doctor.jpg" alt>
-                            <h4>Dr. Faique Falke</h4>
-                            <p>Musaffah Industrial - Abu Dhabi</p>
-                            <small>Doctor Degree & Specialist</small>
-                        </div>
-                        <div class="dr-card">
-                            <img src="images/Doctor.jpg" alt>
-                            <h4>Dr. Faique Falke</h4>
-                            <p>Musaffah Industrial - Abu Dhabi</p>
-                            <small>Doctor Degree & Specialist</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div> -->
-
-    <!-- doctor -->
-    <div class=" doctor-team">
-        <div class="small-container">
-
-
-
-            <div id="owl-1">
-                <div class="title">
-                    <h3>Hospital</h3>
-                    <h2>Recommend <span class="span-blue">Hospitals</span></h2>
-                </div>
-                <div class="dr-cards owl-carousel">
-                    <div class="dr-card">
-                        <img src="images/Doctor.jpg" alt>
-                        <h4>Dr. Faique Falke</h4>
-                        <p>Musaffah Industrial - Abu Dhabi</p>
-                        <small>Doctor Degree & Specialist</small>
-                    </div>
-                    <div class="dr-card">
-                        <img src="images/Doctor.jpg" alt>
-                        <h4>Dr. Faique Falke</h4>
-                        <p>Musaffah Industrial - Abu Dhabi</p>
-                        <small>Doctor Degree & Specialist</small>
-                    </div>
-                    <div class="dr-card">
-                        <img src="images/Doctor.jpg" alt>
-                        <h4>Dr. Faique Falke</h4>
-                        <p>Musaffah Industrial - Abu Dhabi</p>
-                        <small>Doctor Degree & Specialist</small>
-                    </div>
-                    <div class="dr-card">
-                        <img src="images/Doctor.jpg" alt>
-                        <h4>Dr. Faique Falke</h4>
-                        <p>Musaffah Industrial - Abu Dhabi</p>
-                        <small>Doctor Degree & Specialist</small>
-                    </div>
-                    <div class="dr-card">
-                        <img src="images/Doctor.jpg" alt>
-                        <h4>Dr. Faique Falke</h4>
-                        <p>Musaffah Industrial - Abu Dhabi</p>
-                        <small>Doctor Degree & Specialist</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
-    <!-- Hospital -->
-    <div class="Hospitals doctor-team">
-        <div class="small-container">
-
-            <div id="owl-2">
-                <div class="title">
-                    <h3>Hospital</h3>
-                    <h2>Recommend <span class="span-blue">Hospitals</span></h2>
-                </div>
-                <div class="dr-cards owl-carousel">
-                    <div class="dr-card">
-                        <img src="images/hospital%201.1.jpg" alt>
-                        <p>Apollo Hospital</p>
-                        <h4>Bangalore</h4>
-                    </div>
-                    <div class="dr-card">
-                        <img src="images/hospital%202.1.jpg" alt>
-                        <p>Medanta Hospital</p>
-                        <h4>Gurgaon</h4>
-                    </div>
-                    <div class="dr-card">
-                        <img src="images/hospital%203.1.jpg" alt>
-                        <p>Jaslok Hospital</p>
-                        <h4>Mumbai</h4>
-                    </div>
-                    <div class="dr-card">
-                        <img src="images/hospital%203.1.jpg" alt>
-                        <p>Jaslok Hospital</p>
-                        <h4>Delhi</h4>
-                    </div>
-
-
-                </div>
-                <div class="title">
-                    <p>Don't hesitate, contact us for better help and services. <span class="span-red">Explore all
-                            Hospitals</span></p>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <div class="footer" id="footer">
-        <div class="footer-header">
-            <div class="small-container d-flex">
-                <p>Stay healthy and strong to enjoy life</p>
-                <h1>We have team of healthcare experts</h1>
-                <div class="row">
-                    <a href class="btn">Get In Touch</a>  |  
-                    <h3>+91 898 777 9999</h3>
-                </div>
-            </div>
-        </div>
+
 
         <div class="footer-links">
-            <div class="small-container">
+            <div class="container">
+                <div class="small-container d-flex" id="footer-topcard">
+                    <div class="row">
+                        <div class="col-2" id="footer-top-container">
+                            <h6 class="footer-top-container-heading">INTERESTED TO LEARN MORE</h6>
+                            <h3 class="footer-top-container-heading">ABOUT THE ADMISSION PROCESS?</h3>
+                        </div>
+                        <div class="col-2">
+                            <p id="footer-top-header">BOOK AN <br> APPOINTMENT </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="small-container" id="footer-top">
                 <div class="row">
                     <div class="col-2">
-                        <h4>Important Links</h4>
-                        <ul>
-                            <li><span class="span-blue">-</span>Home</li>
-                            <li><span class="span-blue">-</span>About Us</li>
-                            <li><span class="span-blue">-</span>FAQs</li>
-                            <li><span class="span-blue">-</span>Blog</li>
-                            <li><span class="span-blue">-</span>Contact Us</li>
-                        </ul>
-                    </div>
-                    <div class="col-2">
-                        <h4>Top Hospitals</h4>
-                        <ul>
-                            <li><span class="span-blue">-</span>Apollo Hospital Delhi</li>
-                            <li><span class="span-blue">-</span>Medanta Hospital Gurgaon</li>
-                            <li><span class="span-blue">-</span>Max Hospital Delhi</li>
-                            <li><span class="span-blue">-</span>Jaslok Hospital Mumbai</li>
-                            <li><span class="span-blue">-</span>Artemis Hospital Gurgaon</li>
-                            <li><span class="span-blue">-</span>Fortis Hospital Gurgaon</li>
-                            <li><span class="span-blue">-</span>View All</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-2">
-
-
-
-                        <h4>Speciality Treatments</h4>
-                        <ul>
-                            <li><span class="span-blue">-</span>Knee Replacement</li>
-                            <li><span class="span-blue">-</span>Urologist</li>
-                            <li><span class="span-blue">-</span>Spine Surgeon</li>
-                            <li><span class="span-blue">-</span>ENT Surgeons</li>
-                            <li><span class="span-blue">-</span>Orthopaedics</li>
-                            <li><span class="span-blue">-</span>Cardiologist</li>
-                            <li><span class="span-blue">-</span>View All</li>
-                        </ul>
-                    </div>
-                    <div class="col-2" id="Tourism_Destination">
-                        <div class="join_medi">
-                            <span><img src="./images/footerMen.png" alt=""></span>
-                            <h5 class="join_medi_heading">Are you doctor/hospital? <br>
-                                <b>Join Mediretreats</b>
-                            </h5>
-                            <h5 class="join_medi_headingsecond">Lorem ipsum dolor sit amet, contetur<br> adipiscing
-                                elit, sed do eiusmod
-                            </h5>
+                        <div class="col-2 main-logo">
+                            <a href="#"><img src="images/logo.png" alt></a>
                         </div>
+                        <div class="social-icons">
+                            <div>
+                                <a href="#">
 
-                        <h4>Medical Tourism Destination</h4>
-                        <ul>
-                            <li><span class="span-blue">-</span>Medical Tourism in India</li>
-                            <li><span class="span-blue">-</span>Medical Tourism in Sri Lanka</li>
-                            <li><span class="span-blue">-</span>Medical Tourism in UAE</li>
-                            <li><span class="span-blue">-</span>View All</li>
+                                    <i class="fa-sharp fa-solid fa-location-dot fa-2xl"></i>
+                                </a>
+                            </div>
+
+                            <span class="footer-icons-address">
+                                <h6>Visit Us:</h6>
+                                <p>Sr No. 65/1, Sorahunise village, <br> varthur, Bengalure, karnatka 560087
+                                </p>
+                            </span>
+                        </div>
+                        <div class="social-icons">
+                            <div>
+                                <a href="#">
+                                    <!-- <img src="fonts/call.png" alt> -->
+                                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                </a>
+                            </div>
+
+                            <span class="footer-icons-address">
+                                <h6>Call Us At:</h6>
+                                <p>+91 8906 888 999
+                                </p>
+                            </span>
+                        </div>
+                        <div class="social-icons">
+                            <div>
+                                <a href="#">
+                                    <!-- <img src="fonts/email.png" alt> -->
+                                    <i class="fa-regular fa-envelope fa-2xl"></i>
+                                </a>
+                            </div>
+
+                            <span class="footer-icons-address">
+                                <h6>Email At:</h6>
+                                <p>Contact@theprodigies@gmail.com
+                                </p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <h4>Admission</h4>
+                        <ul class="footer-heading">
+                            <li></span>Admission enquiry</li>
+                            <li></span>schedule a visit</li>
+                            <li></span>Admission Process</li>
+                            <li></span>Admission From</li>
+                            <li></span>Rules and Regulations</li>
+                            <li></span>FAQs</li>
                         </ul>
+                        <!-- <button class="btn" id="btn-first">Request for a call
+                            back</button> -->
+                        <li class="btn" id="btn-first"></span>Request for a call
+                            back</li>
+                    </div>
+                    <div class="col-2">
+                        <h4>Academics</h4>
+                        <ul class="footer-heading">
+                            <li></span>About Curriculum</li>
+                            <li></span>Pre-Primary</li>
+                            <li></span>Primary</li>
+                            <li></span>High school</li>
+                            <li></span>Student's achievements</li>
+
+
+                        </ul>
+                        <!-- <button class="btn" style="margin-top: 23%;">Our Core Team</button> -->
+                        <li class="btn" id="btn-second"></span>Our Core Team</li>
                     </div>
 
-                </div>
+                    <div class="col-2">
 
+
+
+                        <h4>Quick Links</h4>
+                        <ul class="footer-heading">
+                            <li></span>Sports</li>
+                            <li></span>Interational programs</li>
+                            <li></span>Trip and tours</li>
+                            <li></span>Mission & vision</li>
+                            <li></span>Board of directors</li>
+                        </ul>
+                        <!-- <button class="btn" style="margin-top: 23%;">Get in touch</button> -->
+                        <li class="btn" id="btn-third"></span>Get in touch</li>
+                    </div>
+                </div>
                 <hr>
             </div>
         </div>
-        <div class="footer-content">
-            <div class="small-container">
-                <div class="row">
-                    <div class="col-2 main-logo">
-                        <a href="#"><img src="images/logo.png" alt></a>
-                    </div>
-                    <div class="col-2 footer-text">
-                        <h3>About Aafiya Mediretreats</h3>
-                        <small>Aafiya Mediretreats is a free, confidential, independent resource for patients and
-                            industry providers. Our mission is to provide a central portal where pa- tients, Medical
-                            Tourism providers, hospitals, clinics, employers, and insurance companies can all find the
-                            information they need. Our site focuses on patients looking for specific knowledge in the
-                            fields of medical tourism, dental tourism, and health tourism.
-                        </small>
-                    </div>
-                    <div class="col-2">
-                        <h3>Follow Us On</h3>
-                        <div class="social-icons">
-                            <a href="#">
-                                <img src="fonts/facebook.svg" alt>
-                            </a>
-                            <a href="#">
-                                <img src="fonts/twitter.svg" alt>
-                            </a>
-                            <a href="#">
-                                <img src="fonts/instagram.svg" alt>
-                            </a>
-                            <a href="#">
-                                <img src="fonts/youtube.svg" alt>
-                            </a>
-                        </div>
-                        <p>Customer Service</p>
-                        <h5>+91 9856555666</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
+
         <div class="footer-end">
-            <div class="small-container">
-                <div class="row">
+            <div class="small-containers">
+                <div class="rows" style="text-align: center;">
                     <div class="col-2">
-                        <p>Copyright © 2020 Aafiya Mediretreats. All Rights Reserved. Designed by Ideamanix.</p>
+                        <p>Copyright © 2021 The Prodigies Interational School</p>
                     </div>
-                    <div class="col-2">
-                        <p>Tearms And Conditions       Privacy Policy</p>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
-
-
-    <!-- ====== js for loader ===== -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"
-        integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-    <script>
-        $(document).ready(function () {
-            $('#owl-1 .dr-cards').owlCarousel({
-                loop: true,
-                margin: 20,
-                responsiveClass: true,
-                dot: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        dot: true,
-                        nav: true
-
-                    },
-                    600: {
-                        items: 2,
-                        dot: true,
-                        nav: false
-                    },
-                    1000: {
-                        items: 3,
-                        nav: true,
-                        loop: false
-                    },
-
-                }
-            });
-        });
-    </script>
-
-    <!-- Hospital -->
-    <script>
-        $(document).ready(function () {
-            $('#owl-2 .dr-cards').owlCarousel({
-                loop: true,
-                margin: 20,
-                responsiveClass: true,
-                dot: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        dot: true,
-                        nav: true
-
-                    },
-                    600: {
-                        items: 2,
-                        dot: true,
-                        nav: false
-                    },
-                    1000: {
-                        items: 3,
-                        nav: true,
-                        loop: false
-                    },
-
-                }
-            });
-        });
-    </script>
-    <!-- Patient stories -->
-    <script>
-        $(document).ready(function () {
-            $('#owl-3 .dr-cards').owlCarousel({
-                loop: true,
-                margin: 20,
-                responsiveClass: true,
-                dot: true,
-                responsive: {
-                    0: {
-                        items: 1,
-                        dot: true,
-                        nav: true
-
-                    },
-                    600: {
-                        items: 2,
-                        dot: true,
-                        nav: false
-                    },
-                    1000: {
-                        items: 3,
-                        nav: true,
-                        loop: false
-                    },
-
-                }
-            });
-        });
-    </script>
-
-
-    <script>
-        // Faq
-
-        var faq = document.getElementsByClassName("faq-page");
-        var i;
-
-        for (i = 0; i < faq.length; i++) {
-            faq[i].addEventListener("click", function () {
-                /* Toggle between adding and removing the "active" class,
-                to highlight the button that controls the panel */
-                this.classList.toggle("active");
-
-                /* Toggle between hiding and showing the active panel */
-                var body = this.nextElementSibling;
-                if (body.style.display === "block") {
-                    body.style.display = "none";
-                } else {
-                    body.style.display = "block";
-                }
-            });
-        }
-    </script>
-
-
-    <script>
-
-        var Preloader = document.getElementById('loading');
-
-        function myfunction() {
-            Preloader.style.display = 'none';
-        }
-
-    </script>
-
-
-    <script>
-
-        var Active = document.getElementById("Active");
-        var activeBtn = Active.getElementsByClassName("active-btn");
-        for (var i = 0; i < activeBtn.length; i++) {
-            activeBtn[i].addEventListener("click", function () {
-                var current = document.getElementsByClassName("active");
-                current[0].className = current[0].className.replace(" active", "");
-                this.className += "active";
-            });
-        }
-    </script>
 
     <!-- new loader -->
     <script>
@@ -1033,6 +254,36 @@
                 document.body.removeChild(loader);
             });
         });
+
+    </script>
+
+
+    <!-- owl  -->
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 1,
+            nav: true,
+            dots: false,
+            loop: true,
+            autoplay: true,
+
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: true,
+                    dots: false
+                },
+                600: {
+                    items: 1,
+                    nav: true
+                },
+                1000: {
+                    items: 1,
+                    nav: true
+                }
+            }
+        })
 
     </script>
 
